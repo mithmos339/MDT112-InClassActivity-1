@@ -1,7 +1,7 @@
 #include "TM1637.h"
 
-const int CLK = 17;
-const int DIO = 16;
+const int CLK = 15;
+const int DIO = 14;
 
 TM1637 sevenSegment(CLK, DIO);
 
